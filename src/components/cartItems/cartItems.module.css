@@ -1,0 +1,23 @@
+.cartItems_container{
+    background-color: white;
+    flex: 0.8;
+    margin-right: 18px;
+    padding: 20px;
+}
+
+.title{
+    margin-bottom: 8px;
+}
+
+/* .items_container{
+
+} */
+
+@media screen and (max-width: 698px) {
+    .cartItems_container{
+        flex: 1;
+        /* margin: 18px 18px 0 18px; */
+        margin-right: 0px;
+        /* width: 83.5vw; */
+    }
+}

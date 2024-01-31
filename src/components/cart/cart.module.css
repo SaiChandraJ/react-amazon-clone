@@ -1,0 +1,32 @@
+.cart_container{
+    display: flex;
+    padding: 14px 18px 0 18px;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 698px) {
+    .cart_container{
+        flex-direction: column;
+        padding: 30px;
+        align-items: normal;
+    }   
+}
+
+@media screen and (max-width: 537px) {
+    .cart_container{
+        padding: 20px;
+    }   
+}
+
+
+@media screen and (max-width: 412px) {
+    .cart_container{
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .cart_container{
+        padding: 10px;
+    }
+}
